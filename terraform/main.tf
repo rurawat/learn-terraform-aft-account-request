@@ -3,7 +3,7 @@ module "vpctesting" {
 
   control_tower_parameters = {
     AccountEmail              = "cloudpractice12@gmail.com"
-    AccountName               = "vpctesting"
+    AccountName               = "vpc"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "rucank07@gmail.com"
     SSOUserFirstName          = "ruch"
