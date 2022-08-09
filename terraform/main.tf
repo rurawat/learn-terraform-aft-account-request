@@ -1,9 +1,9 @@
-module "testing" {
+module "ruchi" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "cloudpractice12@gmail.com"
-    AccountName               = "ruchitavpc"
+    AccountName               = "ruchiovpc"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "rucank07@gmail.com"
     SSOUserFirstName          = "ruch"
@@ -23,5 +23,5 @@ module "testing" {
     group = "non-prod"
   }
 
-  account_customizations_name = "vpctesting"
+  account_customizations_name = "test"
 }
