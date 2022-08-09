@@ -2,7 +2,7 @@ module "vpctesting" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "rawatruchita341@gmail.com"
+    AccountEmail              = "cloudpractice12@gmail.com"
     AccountName               = "vpctesting"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "rucank07@gmail.com"
