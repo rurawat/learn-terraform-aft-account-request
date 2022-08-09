@@ -1,13 +1,13 @@
-module "sandbox" {
+module "vpctesting" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "<ACCOUNT EMAIL>"
-    AccountName               = "sandbox-aft"
+    AccountEmail              = "rawatruchita341@gmail.com"
+    AccountName               = "vpctesting"
     ManagedOrganizationalUnit = "Learn AFT"
-    SSOUserEmail              = "<SSO EMAIL>"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    SSOUserEmail              = "rucank07@gmail.com"
+    SSOUserFirstName          = "ruch"
+    SSOUserLastName           = "rawa"
   }
 
   account_tags = {
@@ -23,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox"
+  account_customizations_name = "vpctesting"
 }
