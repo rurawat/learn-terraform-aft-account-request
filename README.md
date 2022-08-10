@@ -1,6 +1,6 @@
 # Learn Terraform - Use Control Tower Account Factory for Terraform
 
-This is a companion repository for the [Provision and Manage Accounts with
+This  is a companion repository for the [Provision and Manage Accounts with
 Control Tower Account Factory for Terraform
 tutorial](https://learn.hashicorp.com/tutorials/terraform/aws-control-tower-aft)
 tutorial on HashiCorp Learn.
