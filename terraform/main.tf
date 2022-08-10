@@ -1,13 +1,13 @@
-module "VPC" {
+module "VPCTRY" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "rawat_ruchi@yahoo.com"
-    AccountName               = "vpc-one"
+    AccountEmail              = "rawatruchita@yahoo.com"
+    AccountName               = "vpcTesone"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "rucank07@gmail.com"
-    SSOUserFirstName          = "vpcruch"
-    SSOUserLastName           = "vpcrawat"
+    SSOUserFirstName          = "vpcrh"
+    SSOUserLastName           = "vpcrat"
   }
 
   account_tags = {
