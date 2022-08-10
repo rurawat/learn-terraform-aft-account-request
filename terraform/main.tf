@@ -1,13 +1,13 @@
-module "ruchi" {
+module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "cloudpractice12@gmail.com"
-    AccountName               = "ruchiovpc"
+    AccountEmail              = "ruchita66@yahoo.com"
+    AccountName               = "sandbox-aft"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "rucank07@gmail.com"
-    SSOUserFirstName          = "ruch"
-    SSOUserLastName           = "rawa"
+    SSOUserFirstName          = "ruchita"
+    SSOUserLastName           = "rawat"
   }
 
   account_tags = {
@@ -23,5 +23,5 @@ module "ruchi" {
     group = "non-prod"
   }
 
-  account_customizations_name = "test"
+  account_customizations_name = "sandbox"
 }
